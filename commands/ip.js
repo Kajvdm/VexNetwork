@@ -4,7 +4,7 @@ module.exports.run = async(bot, message, args) =>{
 
     var serverEmbed = new discord.MessageEmbed()
             .setDescription("**VexNetwork Server Informatie**")
-            .setImage("https://cdn.discordapp.com/attachments/710935133598908416/712956554801971210/logo.png")
+            .setImage("https://cdn.discordapp.com/attachments/719256890466631752/719261075752878200/Untitled-1.jpg")
             .setColor("#CB4335 ")
 //            .addField("Sended by", client.user.username)
             .addField("Server IP:", "VexNetwork.serv.nu")

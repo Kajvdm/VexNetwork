@@ -3,6 +3,8 @@ const discord = require("discord.js");
 module.exports.run = async (bot, message, args) => {
  
     var idee = args.join(" ");
+
+    if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.send("Hey! Sorry, but you don't have permissions for that.");
  
     if (!idee) return message.channel.send("Specificeer een poll.");
  
