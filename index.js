@@ -31,6 +31,7 @@ client.on("ready", async () => {
 });
 
 client.on('guildMemberAdd', member => {
+   member.roles.add('719266358440755220')
     const channel = member.guild.channels.cache.find(c => c.name == "👋welkom-doei")
     if(!channel) return console.log('channel bestaat niet')
 
