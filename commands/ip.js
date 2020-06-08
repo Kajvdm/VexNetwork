@@ -8,9 +8,9 @@ module.exports.run = async(bot, message, args) =>{
             .setColor("#CB4335 ")
 //            .addField("Sended by", client.user.username)
             .addField("Server IP:", "VexNetwork.serv.nu")
-            .addField("Server version:", "1.12.2")
-            .addField("Server status:", "✅Online✅")
-            .addField("Server store:", "In aanbouw")
+            .addField("Server Version:", "1.12.2")
+            .addField("Server Status:", "✅Online✅")
+            .addField("Server Store:", "In aanbouw")
             .setTimestamp()
             .setFooter(`Aangevraagd door: ${message.author}`);
         
